@@ -1,0 +1,1 @@
+// Tela com os items já pedidos, e opção de finalizar pedido para receber conta, podendo selecionar forma de pagamento aqui para facilitar para o garçom
