@@ -1,6 +1,6 @@
+import 'package:ar_menu/ui/widgets/index.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -8,9 +8,23 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: Column(
-        children: [],
+      body: Container(
+        height: Get.height,
+        width: Get.width,
+        padding: EdgeInsets.symmetric(
+          vertical: Get.height * .15,
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Icon(
+              Icons.camera,
+              size: Get.height * .3,
+            ),
+            SizedBox(height: Get.height * .2, child: const LoginOptions())
+          ],
+        ),
       ),
     );
   }

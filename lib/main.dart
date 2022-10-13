@@ -1,4 +1,4 @@
-import 'package:ar_menu/ui/pages/scan_page.dart';
+import 'package:ar_menu/ui/pages/home_page.dart';
 import 'package:ar_menu/utils/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -16,7 +16,7 @@ class ARMenu extends StatelessWidget {
         colorScheme: coffeeShopScheme,
         scaffoldBackgroundColor: background,
       ),
-      home: const ScanPage(),
+      home: const HomePage(),
     );
   }
 }
