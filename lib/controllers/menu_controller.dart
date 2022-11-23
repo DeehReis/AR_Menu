@@ -193,7 +193,6 @@ class MenuController extends GetxController {
         .collection("table")
         .doc(controller.table)
         .update({
-      "user_id": 0,
       "status": "awaiting_payment",
     });
   }
