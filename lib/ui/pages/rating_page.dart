@@ -1,1 +1,0 @@
-// Tela final e opcional para dar notas ao serviço, comida, local e sistema

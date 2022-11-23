@@ -1,3 +1,4 @@
+import 'package:ar_menu/utils/theme.dart';
 import 'package:flutter/material.dart';
 
 class MainLogo extends StatelessWidget {
@@ -11,7 +12,7 @@ class MainLogo extends StatelessWidget {
     return Icon(
       Icons.food_bank,
       size: size ?? 24,
-      color: color ?? Colors.white,
+      color: color ?? white,
     );
     // const Image(
     //   image: AssetImage("./mainLogo.png"),

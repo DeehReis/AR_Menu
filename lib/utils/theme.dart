@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
-const Color primary = Color(0xFF4B3832);
-const Color secondary = Color(0xFFBE9B7B);
-const Color tertiary = Color(0xFF854442);
-const Color background = Color(0xFFFFF4E6);
+const Color primary = Color(0xFF3B1E00);
+const Color secondary = Color(0xFFC4A27E);
+const Color tertiary = Color(0xFF8A6844);
+const Color background = Color(0xFFBEBD7B);
+const Color white = Colors.white;
+const Color black = Colors.black;
 const Color lightText = Colors.white;
 const Color darkText = Colors.black;
 
@@ -37,4 +39,24 @@ const TextStyle bodyLight = TextStyle(
 const TextStyle bodyDark = TextStyle(
   fontSize: 20,
   color: darkText,
+);
+
+const Gradient defaultGradient = LinearGradient(
+  begin: Alignment.topCenter,
+  end: Alignment.bottomCenter,
+  stops: [
+    0.1,
+    0.6,
+  ],
+  colors: [tertiary, secondary],
+);
+
+const Gradient menuGradient = LinearGradient(
+  begin: Alignment.topCenter,
+  end: Alignment.bottomCenter,
+  stops: [
+    0.1,
+    0.6,
+  ],
+  colors: [primary, secondary],
 );
